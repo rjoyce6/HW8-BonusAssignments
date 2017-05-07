@@ -10,62 +10,62 @@ body {
   margin: 0 auto;
   background: black;
   font-family: 'Lato', sans-serif;
-  color: black;
-  /*background-image: url(../img/milky-way.jpg);*/
+  color: white;
+  background-image: url(../img/stars.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 1500px;
   text-align: center;
   margin-top: 0;
-
 }
 
 /*========================================================
           Sections
 ========================================================*/
-.horoscope {
-  min-height: 800px;
-  margin:  0 auto;
-  width: 95%;
-  padding: 0;
-}
-
-#results {
-  margin-top: 40px;
-}
-
 /*changing title style*/
 h1 {
   font-size: 70px;
-  color: rgba(255, 255, 255, 0.8);
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
-  margin: 20px 0;
+  color: rgba(2,200,226,0.8);
+  text-shadow: 2px 2px rgba(225, 225, 225, 0.1);
+  margin: 2px 0;
+  font-family: "Rochester",cursive;
+
 }
+
+#planetSource {
+  font-size: 12px;
+  color: rgba(64,151,185,0.8);
+
+}
+
 
 /*Changing input box style*/
 input {
-  margin: 10px 0;
   padding: 10px 1px;
   padding-right: 20px;
   margin: 0 auto;
-  width: 40%;
-  font-size: 25px;
+  width: 35%;
+  margin-top: 50px;
+  margin-right: 6px;
+  font-size: 20px;
   border-radius: 6px;
-  border-color: rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.8);
   background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+
 }
 
 /*changing button box style*/
 button {
   border-style: none;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(64,151,185,0.6);
   border: none;
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 10px 20px;
-  height: 40px;
   color: white;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.8);
 }
 
 #warningMessage {
@@ -75,28 +75,36 @@ button {
 }
 
 /*Change the zodiac sign title color and font*/
-#zodiacTitle {
+#title {
   color: white;
-  font-weight: bolder;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  font-family: "Rochester",cursive;
+  font-size: 40px;
 }
 
-#zodiacDate {
-  color: #98F5FF;
-  font-style: italic;
-}
-
-#zodiacInfo {
+#info {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 100;
-  padding: 20px 10px;
+  padding: 6px 10px;
   border-radius: 10px;
+}
+
+#planetInfo{
+  margin: 0 auto;
+  width: 30%;
+  border-radius: 20%;
+  min-width: 350px;
 }
 
 /*changing images*/
 img {
   width: 200px;
   border-radius: 100%;
-  margin: 60px 0 20px;
+  margin: 10px 0;
+}
+
+p {
+  padding: 10px 0;
+  margin: 10px;
 }

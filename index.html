@@ -2,7 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Horoscope Page</title>
+    <title>Planets</title>
+
+    <!-- Spining CSS link -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Cookie|Rochester" rel="stylesheet">
@@ -19,13 +22,28 @@
 
   </head>
 
-
-
-
   <body>
 
 
+    <div class="planets">
+      <h1>Planets of the Solar System</h1>
+      <br>
+      <span>Learn cool space facts about your favorite planet.</span>
+      <span id="planetSource"> (source of information courtesy of www.space-facts.com)</span>
+      <br>
+      <input type="text" name="" value="" id="planetName" placeholder="Planet Name">
+      <button type="button" name="button" id="clickMe">Spaces Facts</button>
+    </div>
 
+    <p id="wrongName"></p>
+
+    <h2 id="title"></h2>
+
+    <div id="planetInfo">
+      <img id="planetImg" class="w3-spin w3-circle" >
+      <br>
+      <p id="info"></p>
+    </div>
 
     <!-- GET READY FOR SOME JAVASCRIPTING!!! -->
         <!-- jQuery -->
@@ -40,4 +58,5 @@
         <!-- javascript -->
         <script type="text/javascript" src="js/app.js"> </script>
   </body>
+
 </html>
